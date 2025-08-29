@@ -1,0 +1,19 @@
+package tuan02_bai1;
+
+public class KiemThu {
+	
+	public static void main(String[] args) {
+		HinhTron hinhtron1 = new HinhTron(6);
+		ToaDo diemO = new ToaDo();
+		ToaDo diem1 = new ToaDo("A", 1, 3);
+		
+		HinhTron hinhtron2 = new HinhTron(diem1, 5);
+		
+		System.out.println(diemO);
+		System.out.println(diem1);
+		System.out.println(hinhtron1);
+		System.out.println(hinhtron2);
+		
+	}
+
+}

@@ -1,0 +1,45 @@
+package tuan02_bai1;
+
+public class ToaDo {
+	private String ten;
+	private double x;
+	private double y;
+
+	public ToaDo() {
+		this ("_", 0.0, 0.0");
+	}
+	
+	public ToaDo (String ten, double x, double y) {
+		this.ten = ten;
+		this.x = x;
+		this.y = y;
+	}
+	
+	public String getTen() {
+		return ten;
+	}
+	
+	public void setTen(String ten) {
+		if(ten.isEmpty() || ten.length() > 1) {
+			throw new IllegalArgumentException("Ten phai la mot ki tu chu");
+		}
+		this.ten = ten.toUpperCase();
+	}
+	public double getx() {
+		return x;
+	}
+	public void setX(double x) {
+		this.x = x;
+	}
+	public double gety() {
+		return y;
+	}
+	public void sety(double x) {
+		this.y = y;
+	}
+	
+	public String toString() {
+		String s = String.format("%s(%.2f;%.2f)", ten, x, y);
+		return s;
+	}
+}
