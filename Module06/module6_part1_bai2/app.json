@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "module5_bai1",
-    "slug": "snack-d76f0925-ae96-421c-b1a4-0fbad82b7e73",
+    "name": "module6_part1_bai2",
+    "slug": "snack-4b3b297c-e458-43c0-88e2-21bc4cbde66f",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,7 +20,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
     },
     "web": {
       "favicon": "./assets/favicon.png"
